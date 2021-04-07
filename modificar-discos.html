@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <input type="checkbox" id="boton">
+        <label for="boton"><img src="./img/descarga.png" alt="" width="30px" height="30px" ></label>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="inicio.html"></a>Inicio</li>
+                <li><a href=""></a>Dashboard</li>
+                <li><a href=""></a>Notas</li>
+                <li><a href="cargar.html"></a>Cargar vinilos</li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!--................cargar vinilos..................-->
+    <form class="formulario" action="" method="get">
+
+        <h2>cargar discos</h2>
+        <label class="labelprincipal" for="Artista o Banda"> Artista o Banda</label><br>
+        <input class="inputprincipal" type="Artista o banda" id="Artista o Banda" name="Artista o Banda"><br>
+        <label class="labelprincipal" for="Nombre de disco">Nombre de disco</label><br>
+        <input class="inputprincipal" type="Nombre de disco" id=" Nombre de disco" name=" Nombre de disco"><br>
+
+        <!--...................año de edicion.................-->
+        <label class="labelaño" for="año">Seleccione un año</label>
+        <input class="inputaño" type="date" id="año" name="año"><br>
+        <!-------..............pais...........-->
+        <label class="labelpais" for="pais">Seleccione un pais</label>
+        <input class="inputpais" type="Pais" id="pais" name="pais"><br>
+        <!--.............value...............-->
+        <label class="value" for="Genero">Seleccione un genero</label>
+        <select id="Genero" name="Genero"> 
+           <option value="Rock">Rock</option>
+           <option value="Salsa">Salsa</option>
+           <option value="Pop">Pop</option>
+           <option value="Bachata">Bachata</option>
+        </select><br>
+
+        <label class="value" for="Estado de caja">Estado de caja</label> 
+        <select id=" Estado de caja" name=" Estado de caja"> 
+           <option value="Dañada">Dañada</option>
+           <option value="Buen estado">Buen estado</option>
+           <option value="Nueva">Nueva</option>
+           <option value="No tiene">No tiene</option>
+        </select><br>
+
+        <label class="value" for="Estado">Estado de disco</label>  
+        <select id="Estado" name="Genero"> 
+           <option value="Dañado">Dañado</option>
+           <option value="Buen estado">Buen estado</option>
+           <option value="Nuevo">Nuevo</option>
+            
+        </select><br>
+
+        <!--...................formato   y velocidad...........-->
+        <p class="value">Formato</p>
+        <input type="radio" id="lp" name="gender" value="lp">
+        <label for="lp">lP</label>
+        <input type="radio" id="EP" name="gender" value="EP">
+        <label for="EP">EP</label>
+        <input type="radio" id="Singles" name="gender" value="Singles">
+        <label for="Singles">Singles</label>
+
+        <label class=" " for="Velocidadad">Velocidad</label>  
+        <select id="Velocidad" name="Velocidad"> 
+           <option value="Lenta">Lenta</option>
+           <option value="Media">Media</option>
+           <option value="Rapida">Rapida</option>
+            
+        </select><br>
+        <!--...................observaciones.................-->
+        <p>observaciones</p>
+        <textarea name="observaciones" id="" cols="40" rows="10"></textarea><br>
+        <!--..........subir archivo...............-->
+        <h4>Click si desea cambiar la imagen</h4>
+        <input type="file" name="Foto"><br><br><br>
+
+
+        <input type="submit" value="Enviar">
+   </form>
+    
+</body>
+</html>

@@ -1,4 +1,5 @@
 .footer{
-    background-color: darkslateblue;
-    margin-bottom: 40px;
+    background-color:var(--colorterciario);
+     
+    height: 100px;
 }

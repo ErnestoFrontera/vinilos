@@ -1,0 +1,44 @@
+ 
+.formulario{
+    background-color:var(--colorprincipal);
+    border:20px solid var(--colorterciario); 
+    max-width: 700px; 
+}
+.formulario h2{
+    background-color: var(--colorsecundario);
+    padding: 20px;
+    text-align: center;
+}
+ .labelprincipal{
+    font-family: var(--fuenteprincipal);     
+}
+   
+.inputprincipal{
+    width: 90%;
+    margin-bottom: 20px;   
+}
+.labelaño{
+    font-family: var(--fuenteprincipal); 
+     
+}
+.inputaño{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.labelpais{
+    font-family: var(--fuenteprincipal); 
+     
+     
+}
+.inputpais{
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+.value{
+    font-family: var(--fuenteprincipal);
+}
+#estadodecaja{
+    margin-bottom: 20px;
+}
