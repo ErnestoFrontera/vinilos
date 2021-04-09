@@ -14,8 +14,7 @@
         <label for="boton"><img src="./img/descarga.png" alt="" width="30px" height="30px" ></label>
          
 
-        <div class="menu-buscador">
-            <h1 class="logo">vinilos</h1>
+        <div class="menu-buscador">             
             <nav class="menu">
                 <ul>
                     <li><a href="inicio.html">Inicio</a></li>
@@ -26,15 +25,18 @@
                     </ul>
             </nav>
 
-            <form>
+            <form class="buscar">
                 <input class="buscador" type="Buscar" id="Buscar" name="Buscar">
                 <input type="submit" value="buscar">
             </form>
-           
-            <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus excepturi labore sunt, beatae nesciunt ab voluptas minus amet, quos dolore, enim blanditiis quasi consectetur aspernatur fugiat dolores? Magnam, quisquam temporibus?</p>
+        </div>
+
+         <div class="logo"> 
+             <p>vinilos</p>
+
+        </div>
          
-        </div>    
-     
+                    
     </header>
     <!--....................galeria de imagenes........................-->
     <main class="main">
@@ -45,26 +47,12 @@
                 <div class="texto">
                     <div><h3>Queen</h3></div>
                     <div><h5>Hot Space</h5></div>
-                    <div><p>pais: Inglaterra ver mas...</p><i class="fa fa-plus-square" aria-hidden="true"></i></div><hr>
+                    <div><p>pais: Inglaterra ver mas...</p></div><hr>
+                
                     <div class="btn"> 
-                        <button onclick="myFunction()" class="button">Eliminar</button>
-
-                        <p id="demo"></p>
-                        
-                        <script>
-                        function myFunction() {
-                          var txt;
-                          if (confirm("Esta seguro que desea eliminar!")) {
-                            txt = "Confirmar!";
-                          } else {
-                            txt = "Cancelar!";
-                          }
-                          document.getElementById("demo").innerHTML = txt;
-                        }
-                        </script>           
-                             
-                            <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>
+                    <button onclick="myFunction()" class="button">Eliminar</button>
+                    <a href="modificar-discos.html"  class="button">Modificar</a>
+                </div>
                 </div>             
             </article>
     <!--....................segunda imagen.............................-->
@@ -75,7 +63,7 @@
                     <div><h3>AC DC</h3></div>
                     <div><h5>Shot in the dark</h5></div>
                     <div><p>pais: Inglaterra ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                             <button onclick="myFunction()" class="button">Eliminar</button>
                             <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>
@@ -88,7 +76,7 @@
                     <div><h3>Electronica</h3></div>
                     <div><h5>Disco</h5></div>
                     <div><p>pais: Holanda ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                         <button onclick="myFunction()" class="button">Eliminar</button>
                         <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>
@@ -101,7 +89,7 @@
                     <div><h3>La beriso</h3></div>
                     <div><h5>Pecado capital</h5></div>
                     <div><p>pais: Argentina ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                         <button onclick="myFunction()" class="button">Eliminar</button>
                         <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>        
@@ -113,7 +101,7 @@
                     <div><h3>Tiesto</h3></div>
                     <div><h5> Kaleidoscope</h5></div>
                     <div><p>pais: Paises bajos ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                         <button onclick="myFunction()" class="button">Eliminar</button>
                         <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>         
@@ -125,7 +113,7 @@
                     <div><h3>Boney M</h3></div>
                     <div><h5>Rasputin</h5></div>
                     <div><p>pais: Alemania ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                             <button onclick="myFunction()" class="button">Eliminar</button>
                             <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>
@@ -138,7 +126,7 @@
                     <div><h3> Modern Talking</h3></div>
                     <div><h5>America</h5></div>
                     <div><p>pais: Alemania ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                             <button onclick="myFunction()" class="button">Eliminar</button>
                             <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>        
@@ -150,7 +138,7 @@
                     <div><h3>Guns N' Roses</h3></div>
                     <div><h5>Greatest</h5></div>
                     <div><p>pais: Estados unidos ver mas...</p></div><hr>
-                    <div>                         
+                    <div class="btn">                         
                             <button onclick="myFunction()" class="button">Eliminar</button>
                             <a href="modificar-discos.html"  class="button">Modificar</a>
                     </div>       

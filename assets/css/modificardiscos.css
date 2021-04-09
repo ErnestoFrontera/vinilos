@@ -1,0 +1,61 @@
+ 
+.formulario{
+    background-color:var(--colorprimario);
+    border:2px solid var(--colorterciario); 
+    max-width: 700px; 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.formulario h2{     
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid var(--colorsecundario);
+}
+ .labelprincipal{
+    font-family: var(--fuenteprincipal);     
+}
+   
+.inputprincipal{
+    width: 90%;
+    margin-bottom: 20px;   
+}
+.labelaño{
+    font-family: var(--fuenteprincipal); 
+     
+}
+.inputaño{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.labelpais{
+    font-family: var(--fuenteprincipal); 
+     
+     
+}
+.inputpais{
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+.value{
+    font-family: var(--fuenteprincipal);
+}
+#estadodecaja{
+    margin-bottom: 20px;
+}
+.formato{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.formato input{
+    margin: 0px 30px 1px 1px;
+}
+.formato-p{
+    font-family: var(--fuenteprincipal);
+}
+.enviar{
+    background-color: var(--colorsecundario);
+}

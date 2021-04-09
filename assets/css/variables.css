@@ -1,11 +1,11 @@
 :root{
---colorprimario: #F1F1F1;
+--colorprimario: #f4f7f6;
 --colorsecundario:  #0073aa;
 --colorterciario:#23282d;
 
 --fuenteprincipal:'Montserrat', sans-serif;
 --fuentesecundaria:'Roboto Slab', serif;
---fuentelogo:'Train One', cursive;
+--fuentelogo:'Pinyon Script', cursiva;
 
 
 --easing: all 0.5s cubic-bezier(.55,0,.1,1);

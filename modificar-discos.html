@@ -65,13 +65,16 @@
         </select><br>
 
         <!--...................formato   y velocidad...........-->
-        <p class="value">Formato</p>
-        <input type="radio" id="lp" name="gender" value="lp">
-        <label for="lp">lP</label>
-        <input type="radio" id="EP" name="gender" value="EP">
-        <label for="EP">EP</label>
-        <input type="radio" id="Singles" name="gender" value="Singles">
-        <label for="Singles">Singles</label>
+        <div class="formato-p"><p>Formato</p></div>
+        <div class="formato">
+            <label for="lp">lP</label>
+            <input type="radio" id="lp" name="gender" value="lp">
+            <label for="EP">EP</label>
+            <input type="radio" id="EP" name="gender" value="EP">
+            <label for="Singles">Singles</label>
+            <input type="radio" id="Singles" name="gender" value="Singles">
+            
+        </div>
 
         <label class=" " for="Velocidadad">Velocidad</label>  
         <select id="Velocidad" name="Velocidad"> 
@@ -88,7 +91,7 @@
         <input type="file" name="Foto"><br><br><br>
 
 
-        <input type="submit" value="Enviar">
+        <input class="enviar" type="submit" value="Enviar"> 
    </form>
     
 </body>
