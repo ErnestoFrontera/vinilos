@@ -5,23 +5,156 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <button onclick="myFunction()">Try it</button>
 
-<p id="demo"></p>
+    <header class="header">
+        <button id="btnburguer"><i class="fa fa-align-justify" aria-hidden="true"></i></button>
+        
+         
+         
 
-<script>
-function myFunction() {
-  var txt;
-  if (confirm("Press a button!")) {
-    txt = "You pressed OK!";
-  } else {
-    txt = "You pressed Cancel!";
-  }
-  document.getElementById("demo").innerHTML = txt;
-}
-</script>
-    
+        <div class="menu-buscador">             
+            <nav class="menu">
+                <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="notas.html">Notas</a></li>
+                    <li><a href="generos.html">Generos</a></li>
+                    <li><a href="cargar.html">Cargar vinilos</a></li>
+                    </ul>
+            </nav>
+
+           <form class="buscar">
+                <input class="buscador" type="Buscar" id="Buscar" name="Buscar">
+                <input type="submit" value="buscar">
+            </form>
+        </div>
+
+         <div class="logo" >
+             <p>VINILOS</p>
+    </header>
+    <main>     
+
+        </div>
+         
+            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+            </script>
+            <figure class="highcharts-figure">
+                <div id="grafico-180"></div>
+                <p class="highcharts-description">
+                    Vinilos/ generos vistos
+                </p>
+            </figure>
+            <script>
+                Highcharts.chart('grafico-180', {
+                chart: {
+                    plotBackgroundColor: null,
+                    plotBorderWidth: 0,
+                    plotShadow: false
+                },
+                title: {
+                    text: 'Vinilos<br>2021',
+                    align: 'center',
+                    verticalAlign: 'middle',
+                    y: 60
+                },
+                tooltip: {
+                    pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                },
+                accessibility: {
+                    point: {
+                        valueSuffix: '%'
+                    }
+                },
+                plotOptions: {
+                    pie: {
+                        dataLabels: {
+                            enabled: true,
+                            distance: -50,
+                            style: {
+                                fontWeight: 'bold',
+                                color: 'white'
+                            }
+                        },
+                        startAngle: -90,
+                        endAngle: 90,
+                        center: ['50%', '75%'],
+                        size: '110%'
+                    }
+                },
+                series: [{
+                    type: 'pie',
+                    name: 'Medidos en',
+                    innerSize: '50%',
+                    data: [
+                        ['Rock Internacional', 58.9],
+                        ['Pop', 13.29],
+                        ['Electronica', 13],
+                        ['Bachata', 3.78],
+                        ['Latinos', 3.42],
+                        {
+                            name: 'Otros',
+                            y: 7.61,
+                            dataLabels: {
+                                enabled: false
+                            }
+                        }
+                    ]
+                }]
+                });
+            </script>
+
+
+            <div id=grafico-horizontal style="width:100%; height:400px;"></div>
+            <script>
+
+            document.addEventListener('DOMContentLoaded', function () {
+            const chart = Highcharts.chart('grafico-horizontal', {
+                chart: {
+                    type: 'bar'
+                },
+                title: {
+                    text: 'Estado de caja / Disco'
+                },
+                xAxis: {
+                    categories: ['Bueno', 'Regular', 'Malo']
+                },
+                yAxis: {
+                    title: {
+                        text: 'Vinilos'
+                    }
+                },
+                series: [{
+                    name: 'Estado de caja',
+                    data: [1, 0, 4]
+                }, {
+                    name: 'Estado de disco',
+                    data: [5, 7, 3]
+                }]
+            });
+            });
+            </script>
+
+
+            
+                
+            
+
+                
+
+            
+            
+
+            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <!--.........grafico 180 grados............-->
+            <script src="https://code.highcharts.com/highcharts.js"></script>
+            <script src="https://code.highcharts.com/modules/exporting.js"></script>
+            <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+        </main>
+
 </body>
 </html>

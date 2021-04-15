@@ -5,9 +5,11 @@
 @import url('./body.css'); 
 @import url('./modificardiscos.css'); 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
-@import url('./animacionheader.css');
 @import url('variables.css');
+@import url('ver-mas.css');
+@import url('dashboard.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url( "https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+@import url('https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css');
  

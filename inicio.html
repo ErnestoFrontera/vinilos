@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="body">
     <!--.....................................header..........................................................-->
-    <header class="header"><img src="/assets/img/backgroundvinilos/fondo.jpg" alt="">
-        <input type="checkbox" id="boton">
-        <label for="boton"><img src="./img/descarga.png" alt="" width="30px" height="30px" ></label>
+    <header class="header">
+        <button id="btnburguer"><i class="fa fa-align-justify" aria-hidden="true"></i></button>
+        
+         
          
 
         <div class="menu-buscador">             
@@ -25,14 +26,14 @@
                     </ul>
             </nav>
 
-            <form class="buscar">
+           <form class="buscar">
                 <input class="buscador" type="Buscar" id="Buscar" name="Buscar">
                 <input type="submit" value="buscar">
             </form>
         </div>
 
-         <div class="logo"> 
-             <p>vinilos</p>
+         <div class="logo" >
+             <p>VINILOS</p>
 
         </div>
          
@@ -47,13 +48,16 @@
                 <div class="texto">
                     <div><h3>Queen</h3></div>
                     <div><h5>Hot Space</h5></div>
-                    <div><p>pais: Inglaterra ver mas...</p></div><hr>
+                    <div><p>pais: Inglaterra ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>                                   
                 
-                    <div class="btn"> 
-                    <button onclick="myFunction()" class="button">Eliminar</button>
-                    <a href="modificar-discos.html"  class="button">Modificar</a>
-                </div>
-                </div>             
+                    <div class="btn">                         
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
+                        <a href="modificar-discos.html"  class="button">Modificar</a>
+                    </div>  
+                </div>               
             </article>
     <!--....................segunda imagen.............................-->
 
@@ -62,11 +66,15 @@
                 <div class="texto">
                     <div><h3>AC DC</h3></div>
                     <div><h5>Shot in the dark</h5></div>
-                    <div><p>pais: Inglaterra ver mas...</p></div><hr>
+                    <div><p>pais: Inglaterra ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                     
                     <div class="btn">                         
-                            <button onclick="myFunction()" class="button">Eliminar</button>
-                            <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
+                        <a href="modificar-discos.html"  class="button">Modificar</a>
+                    </div>  
                 </div>             
             </article>
 
@@ -75,11 +83,15 @@
                 <div class="texto">
                     <div><h3>Electronica</h3></div>
                     <div><h5>Disco</h5></div>
-                    <div><p>pais: Holanda ver mas...</p></div><hr>
+                    <div><p>pais: Holanda ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                    
                     <div class="btn">                         
-                        <button onclick="myFunction()" class="button">Eliminar</button>
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
                         <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>
+                    </div>  
                 </div>             
             </article>
 
@@ -88,11 +100,15 @@
                 <div class="texto">
                     <div><h3>La beriso</h3></div>
                     <div><h5>Pecado capital</h5></div>
-                    <div><p>pais: Argentina ver mas...</p></div><hr>
+                    <div><p>pais: Argentina ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                     
                     <div class="btn">                         
-                        <button onclick="myFunction()" class="button">Eliminar</button>
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
                         <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>        
+                    </div>  
             </article>
 
             <article class="article">
@@ -100,11 +116,15 @@
                 <div class="texto">
                     <div><h3>Tiesto</h3></div>
                     <div><h5> Kaleidoscope</h5></div>
-                    <div><p>pais: Paises bajos ver mas...</p></div><hr>
+                    <div><p>pais: Paises bajos ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                    
                     <div class="btn">                         
-                        <button onclick="myFunction()" class="button">Eliminar</button>
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
                         <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>         
+                    </div>           
             </article>
 
             <article class="article">
@@ -112,11 +132,15 @@
                 <div class="texto">
                     <div><h3>Boney M</h3></div>
                     <div><h5>Rasputin</h5></div>
-                    <div><p>pais: Alemania ver mas...</p></div><hr>
+                    <div><p>pais: Alemania ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                     
                     <div class="btn">                         
-                            <button onclick="myFunction()" class="button">Eliminar</button>
-                            <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
+                        <a href="modificar-discos.html"  class="button">Modificar</a>
+                    </div>  
                 </div>             
             </article>
 
@@ -125,11 +149,15 @@
                 <div class="texto">
                     <div><h3> Modern Talking</h3></div>
                     <div><h5>America</h5></div>
-                    <div><p>pais: Alemania ver mas...</p></div><hr>
+                    <div><p>pais: Alemania ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                     
                     <div class="btn">                         
-                            <button onclick="myFunction()" class="button">Eliminar</button>
-                            <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>        
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
+                        <a href="modificar-discos.html"  class="button">Modificar</a>
+                    </div>  
             </article>
 
             <article class="article">
@@ -137,19 +165,37 @@
                 <div class="texto">
                     <div><h3>Guns N' Roses</h3></div>
                     <div><h5>Greatest</h5></div>
-                    <div><p>pais: Estados unidos ver mas...</p></div><hr>
+                    <div><p>pais: Estados unidos ver mas...<a href="vermas.html"><i class="fa fa-eye" aria-hidden="true"></i></a></p></div>
+                     
                     <div class="btn">                         
-                            <button onclick="myFunction()" class="button">Eliminar</button>
-                            <a href="modificar-discos.html"  class="button">Modificar</a>
-                    </div>       
+                        <div id="overlay"></div>
+                        <button id="boton-modal">Eliminar</button>
+
+                        
+                        <a href="modificar-discos.html"  class="button">Modificar</a>
+                    </div>  
             </article>
 
             
         </div>
          
     </main>    
-       
+       <!--modal-->                       
+       <div id="modal" class="modal">
+        <div class="modal-header">
+          <span id="spanclose" class="close">&times;</span>
+          <h2>Encabezado del modal</h2>
+        </div>
+        <div class="modal-body">
+          <p>Cuerpo del modal</p>
+        </div>
+        <div class="modal-footer">
+          <p>Footer del Modal</p>
+        </div>
+      </div>
+      <!--/modal-->
 
     <footer class="footer"><p>footer</p></footer>
+    <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
