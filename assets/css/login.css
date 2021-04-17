@@ -1,4 +1,25 @@
 .formulario-login{
-    background-color: rgb(128, 113, 226);
-    color: darkslategray;
+    background-color: var(--colorsecundario);
+    width: 30%;
+    height: 500px;
+    text-align: center;    
+    margin:80px auto auto auto; 
+    border-radius: 4px; 
+
+}
+.formulario-login h2{
+    font-family: var(--fuenteprincipal);
+}
+.formulario-login input{
+    padding: 15px 10px;
+    margin-bottom: 45px;
+    border-radius: 4px;
+}
+@media (max-width:658px){
+    .formulario-login{
+        width: 80%;
+        height: 500px;
+        margin: 50px auto auto auto;
+    }
+
 }
